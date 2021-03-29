@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <link href="src/styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="md:flex md:flex-row-reverse">
+        <section
+          class="bg-black text-white px-8 py-10 md:w-full md:flex md:flex-col md:justify-center"
+        >
+          <svg viewBox="0 0 24 24" class="fill-current text-white mb-10 w-10">
+            <g>
+              <path
+                d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"
+              ></path>
+            </g>
+          </svg>
+          <h1 class="text-5xl font-semibold mb-5">Lo que está pasando ahora</h1>
+          <h2 class="text-2xl font-semibold">Únete a Twitter hoy mismo.</h2>
+          <div class="mt-5 flex flex-col sm:flex-row gap-4">
+            <button class="btn-primary">Registrese</button>
+            <button
+              class="bg-transparent text-primary font-semibold border border-primary py-3 px-5 rounded-full w-full"
+            >
+              Iniciar sesión
+            </button>
+          </div>
+        </section>
+        <section class="md:w-1/2">
+          <img
+            class="md:h-full"
+            src="https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png"
+            alt="Fondo"
+          />
+        </section>
+      </div>
+      <footer
+        class="bg-black text-gray-500 p-3 text-xs flex flex-wrap gap-3 justify-center"
+      >
+        <span> Acerca de</span>
+        <span> Centro de ayuda</span>
+        <span> Condiciones de Servicio</span>
+        <span> Política de Privacidad</span>
+        <span> Política de cookies</span>
+        <span> Información de anuncios</span>
+        <span> Blog</span>
+        <span> Estado</span>
+        <span> Empleos</span>
+        <span> Recursos para marcas</span>
+        <span> Publicidad</span>
+        <span> Marketing</span>
+        <span> Twitter para empresas</span>
+        <span> Desarrolladores</span>
+        <span> Guía</span>
+        <span> Configuración</span>
+        <span> © 2021 Twitter, Inc.</span>
+      </footer>
+    </main>
+  </body>
+</html>
